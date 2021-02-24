@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         utils = new Utilities();
 
+
         songsList = songManager.getSongsList();
 
         songProgressBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
