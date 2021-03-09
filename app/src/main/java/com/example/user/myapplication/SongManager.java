@@ -99,46 +99,6 @@ public class SongManager {
 
     }
 
-//    class FileExtentionFilter implements FilenameFilter {
-//        public static final long serialVersionUID = -7435340635066539799L;
-//
-//        public FileExtentionFilter() {
-//            IncrementalChange var2 = $change;
-//            if (var2 != null) {
-//                Object[] var10001 = (Object[])var2.access$dispatch("init$args.([Lcom/example/user/myapplication/SongManager$FileExtentionFilter;Lcom/example/user/myapplication/SongManager;[Ljava/lang/Object;)Ljava/lang/Object;", new Object[]{null, SongManager.this, new Object[0]});
-//                Object[] var3 = (Object[])var10001[0];
-//                this((InstantReloadException)null);
-//                var3[0] = this;
-//                var2.access$dispatch("init$body.(Lcom/example/user/myapplication/SongManager$FileExtentionFilter;Lcom/example/user/myapplication/SongManager;[Ljava/lang/Object;)V", var3);
-//            } else {
-//                super();
-//            }
-//        }
-//
-//        public boolean accept(File dir, String name) {
-//            IncrementalChange var3 = $change;
-//            if (var3 != null) {
-//                return (Boolean)var3.access$dispatch("accept.(Ljava/io/File;Ljava/lang/String;)Z", new Object[]{this, dir, name});
-//            } else {
-//                return name.endsWith(".mp3") || name.endsWith(".MP3");
-//            }
-//        }
-//
-//        FileExtentionFilter(InstantReloadException var2) {
-//            String var3 = (String)((Object[])SongManager.this)[1];
-//            switch(var3.hashCode()) {
-//                case -1968665286:
-//                    super();
-//                    return;
-//                case 1453594764:
-//                    this();
-//                    return;
-//                default:
-//                    throw new InstantReloadException(String.format("String switch could not find '%s' with hashcode %s in %s", var3, var3.hashCode(), "com/example/user/myapplication/SongManager$FileExtentionFilter"));
-//            }
-//        }
-//    }
-//}
 
 //
 //public class SongManager {
